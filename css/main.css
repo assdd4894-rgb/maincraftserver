@@ -159,11 +159,12 @@ footer {
 
 }
 .photo img {
-    width: calc(100vw / 10);
+    width: 70%;
 }
 .photo1 img {
-    width: calc(100vw / 10);
+    width: 70%;
 }
+
 
 
 
