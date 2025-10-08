@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single+Ink:wght@100..900&family=Comfortaa:wght@300..700&family=Press+Start+2P&family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single+Ink:wght@100..900&family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&family=Tiny5&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("../img/fonmods.jpg");
+    font-family: "Press Start 2P", system-ui;   
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: calc(100vw / 24);
+    display: block;
+    background-position: top;
+}
+header nav ul a {
+    color: rgb(255, 255, 255);
+    -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease; 
+    text-decoration: none;
+    font-size: calc(100vw / 22);
+}
+header nav ul li a:hover {
+    color: rgb(218, 101, 165);
+    font-size: calc(100vw / 21);
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+header nav ul li {
+    display: inline-block;
+    margin: 0 auto;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%
+}
+header nav {
+    display: block;
+    background-color: rgb(0, 0, 0, 0.5);
+    background-position: center;
+    margin: 0 auto;
+}
+.mh1 {
+    margin-top: 5%;
+}
+.mh1 h1 {
+    text-align: center;
+    color: rgb(255, 157, 211);
+    display: block;
+    background-color: rgb(0, 0, 0, 0.4);
+    background-position: center;
+    margin: 0 auto;
+    width: 92%;
+}
+.mlist {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: block;
+    background-color: rgb(0, 0, 0, 0.5);
+    background-position: center;
+    margin: 0 auto;
+    width: 92%;
+    margin-top: 4%;
+}
+.mlist2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: block;
+    background-color: rgb(0, 0, 0, 0.5);
+    background-position: center;
+    margin: 0 auto;
+    width: 92%;
+    margin-top: 4%;
+}
+.mlist2 img {
+    width: 88%;
+}
+.mlist3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: block;
+    background-color: rgb(0, 0, 0, 0.5);
+    background-position: center;
+    margin: 0 auto;
+    width: 92%;
+    margin-top: 4%;
+}
+.mlist3 img {
+    width: 82%;
+}
+.mlist img {
+    width: 76%;
+}
+.part {
+    padding-bottom: 3%;
+}
+@media (min-width: 1200px) {
+    body {
+        background-image: url("../img/fonmods.jpg");
+        background-size: cover;
+    }
+    header nav ul {
+        height: calc(100vw / 20);
+        margin-top: 0;
+        padding-top: 0;
+    }
+    header nav ul li a {
+        font-size: calc(100vw / 30);
+    }
+    header nav ul li a:hover {
+    color: rgb(218, 101, 165);
+    font-size: calc(100vw / 31);
+}
+    header nav ul li {
+        padding-top: 0;
+        padding-bottom: 0%
+    }
+    .mh1 {
+        font-size: calc(100vw / 45);
+        margin-top: 2%;
+        
+    }
+    .mlist {
+        width: 26%;
+        font-size: calc(100vw / 50);
+        float: left; 
+        margin-left: 5%;
+        margin-top: 2%;
+    }  
+    .mlist2 {
+        width: 26%;
+        font-size: calc(100vw / 50);
+        float: inline-start;
+        align-items: center;
+        padding: 0 auto;
+        margin-left: 4%;
+        margin-right: 2%;
+        margin-top: 2%;
+    }
+    .mlist3 {
+        width: 26%;
+        font-size: calc(100vw / 50);
+        float: right;
+        margin-right: 4%;
+        margin-top: 2%;
+    }
+}
